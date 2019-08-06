@@ -1,0 +1,1 @@
+website 1: https://www.codeproject.com/Articles/1169032/Calculating-distance-using-Google-Maps-in-asp-net

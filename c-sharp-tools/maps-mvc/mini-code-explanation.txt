@@ -1,0 +1,14 @@
+1. Google API
+	-In order to implement this we need to make use of the google maps api(not directions api)
+	-To get the api, you first need to create an account with google, they require a credit card but you will not be charged anything yet.
+	-In addition they give you $300 free trial period for a year.
+	
+2. The implementation
+	-You will need your input fields (two of them, for source address and destination address)
+	-A div for the map / if you want to show the map on your application
+	
+	After you implement and manage to display the map with correct coordinates.
+	
+3. Distance matrix service (You need to enable this API) in order to get the following
+	- Distance between points
+	- Time between two points

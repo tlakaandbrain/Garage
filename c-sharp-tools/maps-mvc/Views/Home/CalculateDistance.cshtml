@@ -33,18 +33,18 @@
 
 @section scripts{
 
-    <!--ENSURE YOU CHANGE TO YOUR OWN API KEY HERE !!! -->
+    <!--INSERT API KEY -->
     <script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyA6RKAC0Pi10nrSYNh51ldJDSTD69CtDHc" type="text/javascript"></script>
 
-    <!-- code for example 1 -->
+  
     <script>
 
-
+        //Variables that we will use later
         var source, destination;
         var directionsDisplay;
         var directionsService = new google.maps.DirectionsService();
 
-        // initialise the location of the map on Chichester in England (ref lat and lng)
+        // initialise the location of the map (ref lat and lng)
         var map = new google.maps.Map(document.getElementById('dvMap'), {
             center: { lat: -25.7562445 , lng: 28.2409667 },
             zoom: 13,
@@ -57,6 +57,7 @@
             directionsDisplay = new google.maps.DirectionsRenderer({ 'draggable': true });
         });
 
+        //Important function
         function GetRoute() {
 
             directionsDisplay.setMap(map);
@@ -76,7 +77,7 @@
                 }
             });
 
-            //*********DISTANCE AND DURATION**********************//
+            //DISTANCE AND DURATION/ 
             var service = new google.maps.DistanceMatrixService();
             service.getDistanceMatrix({
                 origins: [source],
@@ -103,5 +104,5 @@
         }
 
     </script>
-    <!-- end code for example 1 -->
+   
 }

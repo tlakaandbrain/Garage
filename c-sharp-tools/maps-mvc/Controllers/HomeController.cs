@@ -26,5 +26,15 @@ namespace maps_mvc.Controllers
 
             return View();
         }
+
+        public ActionResult CalculateDistance()
+        {
+            return View();
+        }
+
+        public ActionResult Demo2()
+        {
+            return View();
+        }
     }
 }

@@ -49,12 +49,5 @@ ehthumbs.db
 Thumbs.db
 
 
-#for in directory files - expo-netflix
-node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p12
-*.key
-*.mobileprovision
+
 
